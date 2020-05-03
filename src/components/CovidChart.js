@@ -53,7 +53,7 @@ const CovidChart = () => {
                 <div className = "chart-wrapper">
                     <LineChart
                         width = {1000}
-                        height = {370}
+                        height = {380}
                         data={data}
                         margin= {{ top: 0, right: 0, bottom: 0, left: 60 }}
                     >
@@ -71,7 +71,7 @@ const CovidChart = () => {
                     <div className = "chart-wrapper">
                         <LineChart
                             width = {1000}
-                            height = {370}
+                            height = {380}
                             data={totalData}
                             margin= {{ top: 0, right: 0, bottom: 0, left: 60 }}
                         >
