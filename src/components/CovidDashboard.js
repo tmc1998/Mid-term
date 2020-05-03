@@ -21,7 +21,7 @@ const CovidDashboard = (props) => {
       }, {});
 
     useEffect(() => {
-        fetch("http://cors-anywhere.herokuapp.com/https://maps.vnpost.vn/apps/covid19/api/patientapi/list")
+        fetch("https://cors-anywhere.herokuapp.com/https://maps.vnpost.vn/apps/covid19/api/patientapi/list")
             .then(res => res.json())
             .then(
                 (result) => {

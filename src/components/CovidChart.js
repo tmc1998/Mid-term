@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {LineChart, Line,XAxis, YAxis, CartesianGrid, Tooltip, Legend, CartesianAxis} from 'recharts';
-import { Container , Row, Col} from 'react-bootstrap';
+import {LineChart, Line,XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import { Container} from 'react-bootstrap';
 const CovidChart = () => {
     const [list, setList] = useState([]);
     const [totalList, setTotalList] = useState([]);
